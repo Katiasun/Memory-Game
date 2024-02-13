@@ -51,3 +51,13 @@ const cardArray = [
 cardArray.sort(() => 0.5 - Math.random());
 
 const gridDisplay = document.getElementById("grid");
+
+function createBoard() {
+    for(let i = 0; i < 10; i++) {
+        const card = document.createElement("img");
+        card.setAttribute("src", "img/blank.png");
+        card.setAttribute("data-id", i);
+        gridDisplay.appendChild(card);
+    }
+}
+createBoard();
