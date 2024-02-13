@@ -10,5 +10,15 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     width: 400px;height: 300px;
-    margin: 15px;
+    margin: 15px auto;
+}
+img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+img:hover {
+    opacity: 0.8; /* Subtle hover effect */
 }
