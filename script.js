@@ -48,3 +48,4 @@ const cardArray = [
         img: "img/pizza.png"
     }
 ]
+cardArray.sort(() => 0.5 - Math.random());
